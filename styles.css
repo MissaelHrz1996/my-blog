@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: darkcyan;
+    background-color: rgb(62, 66, 66);
     color:aliceblue;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -17,15 +17,19 @@ body{
 }
 
 .footer-container{
-    margin: 10rem;
+    margin: 8rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    border:solid 0.2rem yellow;
+    padding: 1rem;
 }
 
 .footer-container a{
     text-decoration: none;
     color: rgba(170, 83, 11);
-    background-color: aqua;
+    font-size: 2rem;
+    font-weight: bolder;
+    background-color: rgb(61, 66, 66);
 }
